@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThoughtDef[defName="ProsthophileHappy"]/stages/li[6]</xpath>
+    <success>Normal</success>
+    <value>
+        <li> <!-- Replaced the vanilla 'machine body complete'. We aren't done yet... -->
+          <label>transhuamnist ecstatic</label>
+          <description>With six artificial body parts, I feel incredible. But can I take this further?</description>
+          <baseMoodEffect>13</baseMoodEffect>
+        </li>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThoughtDef[defName="ProsthophileHappy"]/stages</xpath>
+    <success>Normal</success>
+    <value>
+      <li> <!-- 7 body parts -->
+        <label>transhumanist elated</label>
+        <description>Seven artificial body parts! It's all I ever dreamed of! So little feeble human flesh remaining, yet I want it all gone or enhanced.</description>
+        <baseMoodEffect>15</baseMoodEffect>
+      </li>
+
+      <li> <!-- 8 body parts -->
+        <label>transhumanist exultant</label>
+        <description>I feel like I've finally transcended my weak human constraints. Or is there more to discover?</description>
+        <baseMoodEffect>17</baseMoodEffect>
+      </li>
+
+      <li> <!-- 9 body parts -->
+        <label>transhumanist blissful</label>
+        <description>I can't even describe the sensation... Born into weak flesh, only to evolve into a being of chrome and titanium.</description>
+        <baseMoodEffect>19</baseMoodEffect>
+      </li>
+
+      <li> <!-- 10 body parts -->
+        <label>transhumanist euphoric</label>
+        <description>I'm untouchable. With my form so upgraded and perfected, mere biological requirements such as nutrition and oxygen seem less relevant by the day.</description>
+        <baseMoodEffect>21</baseMoodEffect>
+      </li>
+
+      <li> <!-- 11 body parts -->
+        <label>transhumanist ascended</label>
+        <description>I can no longer be described as human. I love it.</description>
+        <baseMoodEffect>23</baseMoodEffect>
+      </li>
+
+      <li> <!-- 12 body parts -->
+        <label>evangelion</label>
+        <description>Indestructable pneumatic joints, layers of titanium alloy armor and thousands of micro-circuits. Artificial enhancement has made me a being unlike any other.</description>
+        <baseMoodEffect>25</baseMoodEffect>
+      </li>
+
+      <li> <!-- 13 body parts -->
+        <label>Ghost in the Shell</label>
+        <description>I'm a soul encased in plasteel and chrome. In this perfect vessel, I can truly understand the meaning of living.</description>
+        <baseMoodEffect>27</baseMoodEffect>
+      </li>
+
+      <li> <!-- 14 body parts -->
+        <label>methuselah</label>
+        <description>This is the pinnacle of existence. My perfect body will live on forever, long after those that surround me have turned to dust.</description>
+        <baseMoodEffect>30</baseMoodEffect>
+      </li>
+
+    </value>
+  </Operation>
+
+</Patch>

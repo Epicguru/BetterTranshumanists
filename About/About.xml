@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <packageId>co.uk.epicguru.bettertranshumanists</packageId>
+  <name>Better Transhumanists</name>
+  <author>Epicguru (James B)</author>
+  <supportedVersions>
+    <li>1.0</li>
+    <li>1.1</li>
+    <li>1.2</li>
+  </supportedVersions>
+  <url>https://github.com/Epicguru/BetterTranshumanists</url>
+  <description>
+Increases the number of transhumanist trait levels from 6 to 14.
+New max transhumanist mood bonus is +30 when using 14 artificial body parts.
+
+In vanilla, &lt;i&gt;Machine body complete&lt;/i&gt; is the final stage, but why should it be?
+Only 6 body parts and you're done? No way!
+
+Adds 8 new levels to the transhumanist trait, each with unique descriptions and an ever-increasing mood bonus.
+  </description>
+</ModMetaData>
