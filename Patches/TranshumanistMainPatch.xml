@@ -6,7 +6,7 @@
     <success>Normal</success>
     <value>
         <li> <!-- Replaced the vanilla 'machine body complete'. We aren't done yet... -->
-          <label>transhuamnist ecstatic</label>
+          <label>transhumanist ecstatic</label>
           <description>With six artificial body parts, I feel incredible. But can I take this further?</description>
           <baseMoodEffect>13</baseMoodEffect>
         </li>
